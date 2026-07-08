@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fábrica Bots | Servidor em Repouso</title>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent-green: #22c55e;
+      --accent-blue: #38bdf8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background-color: var(--card-bg);
+      border: 1px solid #334155;
+      border-radius: 16px;
+      max-width: 600px;
+      width: 100%;
+      padding: 40px 30px;
+      text-align: center;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: rgba(234, 179, 8, 0.1);
+      color: #eab308;
+      border: 1px solid rgba(234, 179, 8, 0.3);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #eab308;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+      color: var(--text-main);
+    }
+
+    p.subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .features-box {
+      background-color: #0f172a;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 28px;
+      border-left: 4px solid var(--accent-blue);
+    }
+
+    .features-box h3 {
+      font-size: 0.95rem;
+      color: var(--accent-blue);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .features-box p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: var(--accent-green);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.05rem;
+      padding: 14px 28px;
+      border-radius: 10px;
+      width: 100%;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .btn-whatsapp:hover {
+      background-color: #16a34a;
+      transform: translateY(-2px);
+    }
+
+    .footer-note {
+      margin-top: 24px;
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="status-badge">
+      <span class="status-dot"></span> Servidor On-Premises em Repouso
+    </div>
+
+    <h1>Fábrica Bots</h1>
+    <p class="subtitle">
+      Nosso ambiente de demonstração local está temporariamente fora do ar. 
+      Mas nossa inovação não para!
+    </p>
+
+    <div class="features-box">
+      <h3>Soluções Sob Medida</h3>
+      <p>
+        Desenvolvemos ecossistemas focados em <strong>Customer Experience (CX)</strong> e automação avançada com soluções SaaS baseadas em <strong>IA Open Source</strong> — com foco em rastreabilidade de dados e total conformidade com a <strong>LGPD</strong>.
+      </p>
+    </div>
+
+    <a href="https://wa.me/5527992634862?text=Ol%C3%A1%20Allan!%20Vim%20pelo%20site%20da%20F%C3%A1brica%20Bots%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es." target="_blank" class="btn-whatsapp">
+      💬 Falar com Allan Robs no WhatsApp
+    </a>
+
+    <div class="footer-note">
+      Contato direto: +55 27 99263-4862
+    </div>
+  </div>
+
+</body>
+</html>
